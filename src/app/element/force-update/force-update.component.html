@@ -1,0 +1,13 @@
+<div class="card text-center">
+  <div class="card-header">
+    RH Sensor Data Force Update
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">RH VALUE AGAINST THE SCALE </h5>
+    <p class="card-text">{{ this.message }}</p>
+    <a (click)="call_update()" class="btn btn-primary">Request DATA</a>
+  </div>
+  <div class="card-footer text-muted">
+    {{ this.log_data }}
+  </div>
+</div>

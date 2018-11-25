@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'iotProjectV2';
+  title = 'Smart Surge Maintenance System';
 }
