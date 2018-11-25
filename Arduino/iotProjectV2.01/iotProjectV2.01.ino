@@ -7,7 +7,7 @@ const char* mqtt_server = "192.168.0.104";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
-String msg = "13";
+String msg = "100.00";
 
 void setup_wifi() {
   delay(10);
@@ -78,10 +78,10 @@ void loop() {
   Serial.print("Publish message: ");
   Serial.println(msg);
   client.publish("iotProjectV2/live-update", (char*)msg.c_str());
-  delay(5000);
+  delay(1000);
 }
 
 void update_raw(){
-  msg = "12";
+  msg = String ( float( analogRead(A0) * (100.0 / 1023.0 )));
 }
 

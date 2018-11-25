@@ -57,7 +57,7 @@ export class LiveUpdateComponent implements OnInit {
       }
     });
 
-    if(this.data.length >= 30) {
+    if(this.data.length >= 150) {
       this.data.pop();
       this.weather_date.pop();
       this.data.shift();
