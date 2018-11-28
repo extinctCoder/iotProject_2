@@ -23,7 +23,7 @@ import {
 
 
 export const MQTT_SERVICE_OPTIONS: IMqttServiceOptions = {
-  hostname: '192.168.0.104',
+  hostname: '192.168.43.242',
   port: 9001,
   path: '/mqtt'
 };

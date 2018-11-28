@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 import pymysql.cursors
-broker_address = "192.168.0.104"
+broker_address = "192.168.43.242"
 
 live_data_chanel = "iotProjectV2/live-update"
 

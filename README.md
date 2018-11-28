@@ -1,27 +1,9 @@
-# IotProjectV2
+FOR MAKING THIS PROJECT TO RUN ANY ENVIRONMENT THIS STEPS NEEDED TO BE FOLLOWED:
+1. INSTALL RASPBIAN OS INTO A RASPBERRY PI AND INSTALL MOSQUTTO ON IT. OPEN A WEB SOCKET AT PORT 1900
+2. INSTALL ANACONDA FOR PYTHON 3.5 OR GETTER ON YOUR DUMPER SYSTEM. INSTALL PAHO.MQTT AND PYMYSQL LIBARRY IN PYTHON.
+3. SETUP ANGULAR 6 ENVIRONMENT ON TO THE CLIENT ENVIRONMENT. COMPILE THE ANGULAR PROJECT AND RUN IT INTO THE 4200 PORT
+4. CONFIQURE ANDUINO IDE TO ABLE TO WORK WITH ESP8266 BOARDS. ADD PU0BSUB LIBARRY INTO THE ARDUINO IDE.
+5. INTALL XAMPP INTO THE DUMPER SYSTEM FOR UPLOADING DATA INTO MYSQL. DB SCRIPT WILL BE FOUND IN THE PROJECT REPOSITARY. MAKE A DATABASE CALLED 'iotProjectV2'
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+N.B.	USE FIREFOX DEVELOPER EDITION FOR THE ANGULAR PROJECT. IF YOU ARE USING CHROME THERE MAYBE CROSS DOMAIN PERMISSION ARE NEEDED TO BE GIVEN.
+	FOR THE IDE CHOICES RECOMENDATIONS ARE PYCHARM PROFESSIONAL EDITION, WEBSTROME PROFESSIONAL EDITION, ARDUINO IDE, CYBERDUCK, CMDER
