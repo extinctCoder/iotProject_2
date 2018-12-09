@@ -8,7 +8,7 @@ FOR MAKING THIS PROJECT TO RUN ANY ENVIRONMENT THIS STEPS NEEDED TO BE FOLLOWED:
 
 N.B.
 - USE FIREFOX DEVELOPER EDITION FOR THE ANGULAR PROJECT.
-  - IF YOU ARE USING CHROME THERE MAYBE CROSS DOMAIN PERMISSION ARE NEEDED TO BE GIVEN.
+  - IF YOU ARE USING CHROME THERE MAYBE [CROSS DOMAIN PERMISSION](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en) ARE NEEDED TO BE GIVEN.
 - FOR THE IDE CHOICES RECOMENDATIONS ARE
   - [PYCHARM PROFESSIONAL EDITION](https://www.jetbrains.com/pycharm/download/#section=windows), 
   - [WEBSTROME PROFESSIONAL EDITION](https://www.jetbrains.com/webstorm/download/#section=windows), 
