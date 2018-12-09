@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "blackWeb";
-const char* password = "01794175793";
-const char* mqtt_server = "192.168.43.242";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_SSID_PASSWORD";
+const char* mqtt_server = "BROKER_IP";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
