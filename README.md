@@ -1,4 +1,5 @@
-FOR MAKING THIS PROJECT TO RUN ANY ENVIRONMENT THIS STEPS NEEDED TO BE FOLLOWED:
+# iotProject_2
+## FOR MAKING THIS PROJECT TO RUN ANY ENVIRONMENT THIS STEPS NEEDED TO BE FOLLOWED:
 - INSTALL [RASPBIAN OS](https://www.raspberrypi.org/downloads/raspbian/) INTO A [RASPBERRY PI](http://bdspeedytech.com/index.php?route=product/product&product_id=2674&search=RASPBERRY+PI) AND INSTALL [MOSQUTTO](https://www.instructables.com/id/Installing-MQTT-BrokerMosquitto-on-Raspberry-Pi/) ON IT. OPEN A WEB SOCKET AT PORT 1900
 - INSTALL [ANACONDA](https://www.anaconda.com/download/) FOR [PYTHON 3.5](https://repo.anaconda.com/archive/Anaconda3-5.3.1-Windows-x86_64.exe) OR GETTER ON YOUR DUMPER SYSTEM. INSTALL [PAHO.MQTT](https://anaconda.org/wheeler-microfluidics/paho-mqtt) AND [PYMYSQL](https://pypi.org/project/PyMySQL/) LIBARRY IN PYTHON.
 - SETUP [ANGULAR](https://angular.io/guide/quickstart) ENVIRONMENT WITH [NGX-MQTT-CLIENT](https://www.npmjs.com/package/ngx-mqtt-client) AND THE ON TO THE CLIENT SYSTEM. [BUILD](https://github.com/extinctCoder/iotProject_2/blob/master/angular.md) THE ANGULAR PROJECT AND RUN IT INTO THE 4200 PORT
